@@ -24,11 +24,11 @@ Step 5. From the data set in the above step, create a second, independent tidy d
 
 Step-by-Step Tasks
 
-I. Created a project workspace on my computer and set that as working directory.
+I. Create a project workspace on my computer and set that as working directory.
 
 Working Directory:
 
-Unzipped the data downloaded from the source mentioned above where the raw data resides to
+In my case, while working on this project, I unzipped the data downloaded from the source mentioned above where the raw data resides to the following path and set that was the working directory.
 
  "~/Documents/SAIR/UCI HAR Dataset/data/"
 
