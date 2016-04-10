@@ -42,7 +42,8 @@ used gsub to add decriptive labels for the data.
 
 V. The output of the IV above is called tidy_Data.txt, and uploaded in the course project's form.
 
-III. Description of Data Variables is provided in CodeBook.md
+
+Description of Data Variables is provided in CodeBook.md
 
 Files & Folders in Working Directory
 
