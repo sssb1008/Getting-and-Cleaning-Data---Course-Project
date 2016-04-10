@@ -58,5 +58,4 @@ names(final_Mean_Stddev) <- gsub('\\.std',".StandardDeviation",names(final_Mean_
 
 tidy_Data = ddply(final_Mean_Stddev, c("Subject","activityType"), numcolwise(mean))
 write.table(tidy_Data, './tidy_Data.txt',row.names=FALSE,sep='\t')
-
 #View(tidy_Data)
