@@ -24,7 +24,7 @@ Step 5. From the data set in the above step, create a second, independent tidy d
 
 Step-by-Step Tasks
 
-I. Create a project workspace on my computer and set that as working directory.
+I. Create a project workspace on on your computer and set that as working directory.
 
 Working Directory:
 
@@ -45,7 +45,16 @@ Files & Folders in Working Directory
 Initially provided on course website
 
     Folder : UCI-HAR-Dataset
-
+    Files  :
+                features.txt
+                activity_labels.txt
+                subject_train.txt
+                x_train.txt
+                y_train.txt
+                subject_test.txt
+                x_test.txt
+                y_test.txt
+                
 Created as part of the Project:
 
     Folder: UCI-HAR-Dataset
