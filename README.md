@@ -45,7 +45,6 @@ Files & Folders in Working Directory
 Initially provided on course website
 
     Folder : UCI-HAR-Dataset
-    Files  : README.md
 
 Created as part of the Project:
 
@@ -55,12 +54,13 @@ Created as part of the Project:
             README.md
             CodeBook.md
            
-Created by the Code run_analysis.R 
+Created by the Code run_analysis.R
+    Files : 
             tidy_Data.txt
             
 Created Repository on GitHub, cloned the working directory, committed and synchornized for peers to evlulate the project.
 
-GitHub repository link :
+GitHub repository link : https://github.com/sssb1008/Getting-and-Cleaning-Data---Course-Project.git
 
 Acknowledgements: 
 
