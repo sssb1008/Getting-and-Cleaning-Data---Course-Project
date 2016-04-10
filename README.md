@@ -56,8 +56,7 @@ Created as part of the Project:
             CodeBook.md
            
 Created by the Code run_analysis.R 
-            mergedData.txt
-            tidyDataWithMeans.txt
+            tidy_Data.txt
             
 Created Repository on GitHub, cloned the working directory, committed and synchornized for peers to evlulate the project.
 
