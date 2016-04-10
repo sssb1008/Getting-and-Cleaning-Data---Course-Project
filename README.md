@@ -36,9 +36,9 @@ II. Analyze the objectives of the project and defined the data variables and fun
 
 Includes binding the data into a single data set and applying relevant labels to the data 
 
-IV. Coded run_analysis.R to perform the main task of the project.
+IV. Coded run_analysis.R to perform the task of producing a tidy dataset.
 
-used gsub to add decriptive labels for the data.
+used gsub to clean up the data labels and add decriptive labels for the data.
 
 V. The output of the IV above is called tidy_Data.txt, and uploaded in the course project's form.
 
