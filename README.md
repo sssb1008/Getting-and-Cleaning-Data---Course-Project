@@ -24,7 +24,7 @@ Step 5. From the data set in the above step, create a second, independent tidy d
 
 Step-by-Step Tasks
 
-I. Create a project workspace on on your computer and set that as working directory.
+I. Create a project workspace on on your computer, extract the source data files (in archived zip format) into the workspace diectory and set that as working directory.
 
 Working Directory:
 
@@ -32,13 +32,17 @@ In my case, while working on this project, I unzipped the data downloaded from t
 
  "~/Documents/SAIR/UCI HAR Dataset/data/"
 
-II. Analyzed the objectives of the project and defined the data variables and functions required to clean the source data and prepare the Tidy data as per the  project tasks stated above.
+II. Analyze the objectives of the project and defined the data variables and functions required to clean the source data and prepare the tidy data as per the  project tasks stated above.
 
-IV. Coded run_analysis.R to perform the main Job of the project.
+Includes binding the data into a single data set and applying relevant labels to the data 
+
+IV. Coded run_analysis.R to perform the main task of the project.
+
+used gsub to add decriptive labels for the data.
 
 V. The output of the IV above is called tidy_Data.txt, and uploaded in the course project's form.
 
-III. Provided description of Data Variables, and Functions in CodeBook.md
+III. Description of Data Variables is provided in CodeBook.md
 
 Files & Folders in Working Directory
 

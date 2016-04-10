@@ -57,6 +57,6 @@ names(final_Mean_Stddev) <- gsub('\\.std',".StandardDeviation",names(final_Mean_
 # 5. From the data set in 4 above, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 tidy_Data = ddply(final_Mean_Stddev, c("Subject","activityType"), numcolwise(mean))
-write.table(tidy_Data, 'tidy_Data.txt',row.names=FALSE,sep='\t')
+write.table(tidy_Data, './tidy_Data.txt',row.names=FALSE,sep='\t')
 
-View(tidy_Data)
+#View(tidy_Data)

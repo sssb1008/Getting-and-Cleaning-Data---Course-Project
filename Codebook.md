@@ -1,28 +1,26 @@
-Kindly refer README.txt and features.txt files in the original dataset to learn more about the feature selection for this dataset.
+Kindly refer README.txt and features.txt files in the original dataset to learn more about the features for this dataset.
 
-The steps followed in run_Analysis.R script to get to the final tidyData set as per the requirements of the project is as follows:
+Per the project instructions, we need to produce only a tidy data set with the average and standard deviation of each variable for each activity and subject.
 
-Step 1. Merge the training and the test sets to create one data set.
+Salient Features of the Data Variables in the tidy_Data set:
 
-After setting the directory for the files, read into tables the data located in features.txt, activity_labels.txt, subject_train.txt, x_train.txt, y_train.txt, subject_test.txt, x_test.txt, and y_test.txt
+The final product "tidy_Data.txt" file is created with the average and standard deviation of each variable for each activity and each subject from the original data set.
 
-Assign column names and merge to create one data set.
+tidy_Data is a data.frame with 180 obs. of  81 variables
 
-Step 2. Extract only the measurements on the mean and standard deviation for each measurement.
+** Subject id = integer subject ID that denotes the subject that performed the activity.
 
-Bind the data
+** activityType = is factor variable that denotes the activity performed by a subject. There are 6 activities, namely:
+denotes the activity performed by the subject. There are six activites, listed here:
 
-Step 3. Use descriptive activity names to name the activities in the data set
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
 
-Step 4. Appropriately label the data set with descriptive activity names.
-
-Use gsub function for pattern replacement to clean up the data labels.
-
-Step 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject.
-
-Data have been labelled using descriptive names.They are as follows:
+** 79 other features cwere extracted from the original data based on the instuction to capture only mean and standard deviation data variables. Data have been labelled using descriptive names:
 
 prefix t is replaced by Time
 
@@ -36,21 +34,9 @@ Mag is replaced by Magnitude
 
 BodyBody is replaced by Body
 
-The final product "tidy_Data.txt" file is created with the average of each variable for each activity and each subject from the original data set with the following labels:
-
-Activity id = integer activity ID
-
-Subject id = integer subject ID
-
 Mean and Standard Deviation Data Variables with Descriptive Data Labels:
 
-tidy_Data is a data.frame:	180 obs. of  81 variables
-
-
-Subject	- integer variable
-activityType - factor variable
-
-All Time and Frequency domain mean and standard deviation variables below are numeric
+All Time and Frequency domain mean and standard deviation variables shown below are numeric
 
 Time domain Mean and Standard Deviation Variables
 
