@@ -36,7 +36,7 @@ II. Analyzed the objectives of the project and defined the data variables and fu
 
 IV. Coded run_analysis.R to perform the main Job of the project.
 
-V. The output of the IV above is called tidyData.txt, and uploaded in the course project's form.
+V. The output of the IV above is called tidy_Data.txt, and uploaded in the course project's form.
 
 III. Provided description of Data Variables, and Functions in CodeBook.md
 
